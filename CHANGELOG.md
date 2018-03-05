@@ -7,9 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 ### Added
+- GAP: allow to limit number of connections in LE Peripheral role with gap_set_max_number_peripheral_connections
+- ATT: allow to specify security requirements seperately for read/writes. .h files need to be regenerated
 
 ### Changed
-- GAP: allow to limit number of connections in LE Peripheral role with gap_set_max_number_peripheral_connections
 
 ### Fixed
 
